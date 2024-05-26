@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #0f3c4c;
+    color: white;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: #134b5f;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(11, 46, 67);
+    font-size: 1.03rem;
+}
+
+.left {
+    margin: 40px;
+    font-size: 1.75rem;
+    font-family: Arial;
+}
+
+.firstsection {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 4%;
+    font-size: 3rem;
+    font-family: math;
+    align-items: center;
+}
+
+.firstsection button {
+    color: #08afea;
+    font-size: 17px;
+    background-color: #092630;
+    border: 2px solid white;
+    border-radius: 14px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.firstsection button :hover {
+    background-color: #08afea;
+    animation: 0.5em;
+    
+}
+
+.firstsection>div {
+
+    width: 30%;
+}
+
+.rightsection img {
+
+    width: 362px;
+}
+
+.grey {
+    color: grey;
+    color: #92cbdf;
+
+}
+
+
+#element {
+
+    color: #92cbdf;
+}
+
+.secondsection h1 {
+
+    margin: auto;
+    max-width: 80vw;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    height: 150px;
+    font-size: 27px;
+}
+
+.main hr {
+    border: 0;
+    background-color: red;
+    height: 10vw;
+
+}
+
+.text-gray {
+    color: gray;
+    margin-inline-start: 144px;
+    font-size: 20px;
+    height: 10vw;
+
+
+}
+
+.secondsection .box {
+    background-color: white;
+    width: 83vw;
+    height: 1px;
+    margin: 42px;
+    margin-left: 112px;
+    display: flex;
+}
+
+.secondsection .vartical {
+    height: 26px;
+    width: 1px;
+    background-color: white;
+    margin: 0 161px;
+    padding-bottom: 1rem;
+
+}
+
+#hr1 {
+    margin-bottom: 3rem;
+}
+
+#helloo {
+
+
+
+    width: 51px;
+
+    position: relative;
+
+    top: -61px;
+
+    left: -26px;
+
+
+}
+
+.varticaltext {
+    position: relative;
+    bottom: 8px;
+    left: -15px;
+    font-size: 13px;
+}
+
+.vartical-des {
+    position: relative;
+    bottom: -9px;
+    color: grey;
+    font-size: 17px;
+    width: 186px;
+    left: -72px;
+}
+
+.footer {
+    background-color: #1a3842;
+    height: 156px;
+    margin: auto;
+    position: relative;
+    bottom: -238px;
+}
+
+.footer-first {
+    margin: 1px 57px;
+    padding: 11px;
+    font-family: Arial;
+    font-size: 10px;
+    list-style: none;
+
+}
+
+.footer-therd {
+    position: absolute;
+    left: 520px;
+    list-style: none;
+    justify-content: space-around;
+    top: 11px;
+}
+
+.footer-dc {
+    position: relative;
+    bottom: -217px;
+    margin: 0 23px;
+    text-align: center;
+    color: gray;
+
+}
